@@ -6,12 +6,13 @@ class student
 {
     int admno;
     char sname[20];
-    float eng,maths,sci,total;
+    float eng, maths, sci, total;
 
     float ctotal()
     {
-        return eng+maths+sci;
+        return eng + maths + sci;
     }
+
     public:
     void takedata()
     {
@@ -26,7 +27,7 @@ class student
         cout << "Enter Student Science Marks :-";
         cin >> sci;
 
-            total=ctotal();
+        total = ctotal();
     }
 
     void showdata()
@@ -40,7 +41,7 @@ class student
 
 int main()
 {
-    student stu;//stu is student class object
+    student stu; //stu is student class object
 
     stu.takedata();
     stu.showdata();
