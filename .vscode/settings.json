@@ -4,6 +4,7 @@
         "*.tcc": "cpp",
         "initializer_list": "cpp",
         "istream": "cpp",
-        "limits": "cpp"
+        "limits": "cpp",
+        "iostream": "cpp"
     }
 }
