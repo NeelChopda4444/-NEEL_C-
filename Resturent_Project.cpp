@@ -13,14 +13,14 @@ void order()
 void bill()
 {
            total += quantity;
-           cout <<"Your Bill Is RS"<< total<<endl;
+           cout <<"Your Bill Is RS:- "<< total<<endl;
     
 };
 
 int main()
 {
     cout << "Welcome To Our Restaurant!" << endl;
-
+    
     cout << " Enter Your Name:- ";
     cin >> name;
     cout << "Enter Your Mobile Number:- ";
@@ -62,17 +62,18 @@ int main()
             cout << "Frenky: ";
             cin >> quantity;
             total += quantity * 80;
-            cout << "Frenky: ";
+            cout << "Wrap: ";
             cin >> quantity;
             total += quantity * 115;
             cout << "Order Has Placed Sucessfully" << endl;
             break;       
         case 3:
-                bill();
+                bill(); 
             break;
         case 4:
-                cout <<"Thankyou For Giving Us A Chance To Serve You"<<endl;
-            break;    
+             cout <<" \tThankyou For Giving Us A Chance To Serve You "<<endl;
+             cout <<" \tHave A Nice Day "<<endl;
+            return 0;    
         default:
                 cout << "You Are Entering Wrong Choice!!";
        

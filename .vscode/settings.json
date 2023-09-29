@@ -5,6 +5,7 @@
         "initializer_list": "cpp",
         "istream": "cpp",
         "limits": "cpp",
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "ostream": "cpp"
     }
 }
