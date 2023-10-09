@@ -1,8 +1,9 @@
 #include <iostream>
+
 using namespace std;
 
 char name[50];
-int number,quantity ,choice;
+int number, quantity ,choice;
 float total = 0;
 void order()
 {
@@ -20,18 +21,17 @@ void bill()
 int main()
 {
     cout << "Welcome To Our Restaurant!" << endl;
-    
     cout << " Enter Your Name:- ";
     cin >> name;
     cout << "Enter Your Mobile Number:- ";
-    cin >> number;
+    cin>> number;
     while (true)
     {
         cout << "Hello, " << name << "! What would you like to do?" << endl;
         cout << "1. View Menu" << endl;
         cout << "2. Place Order" << endl;
-        cout << "3.bill " << endl;
-        cout << "4. Exit" << endl;
+        cout << "3.Exit " << endl;
+        
         cout << "Enter your choice: ";
         cin >> choice;
 
@@ -69,10 +69,9 @@ int main()
             break;       
         case 3:
                 bill(); 
-            break;
-        case 4:
-             cout <<" \tThankyou For Giving Us A Chance To Serve You "<<endl;
-             cout <<" \tHave A Nice Day "<<endl;
+                        cout <<" \tThankyou For Giving Us A Chance To Serve You "<<endl;
+                      cout <<" \tHave A Nice Day "<<endl;
+            
             return 0;    
         default:
                 cout << "You Are Entering Wrong Choice!!";
